@@ -31,7 +31,8 @@ TEST(empty_substring)
 }
 
 /******************************************************************************
- * total_string: describe yourself.
+ * total_string: tests that trimming an string with no leading and trailing blanks
+ * yields the source string.
  *
  *
  ******************************************************************************/
@@ -45,7 +46,7 @@ TEST(total_string)
 }
 
 /******************************************************************************
- * leading_blanks: describe yourself.
+ * leading_blanks: tests if the leading blanks are getting trimmed.
  *
  *
  ******************************************************************************/
@@ -59,7 +60,7 @@ TEST(leading_blanks)
 }
 
 /******************************************************************************
- * trailing_blanks: describe yourself.
+ * trailing_blanks: tests if the trailing blanks are getting trimmed.
  *
  *
  ******************************************************************************/
@@ -73,7 +74,8 @@ TEST(trailing_blanks)
 }
 
 /******************************************************************************
- * leading_and_trailing_blanks: describe yourself.
+ * leading_and_trailing_blanks: tests if the leading blanks and the trailing blanks
+ * are getting trimmed.
  *
  *
  ******************************************************************************/
